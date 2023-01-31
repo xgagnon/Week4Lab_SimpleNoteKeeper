@@ -62,6 +62,7 @@ public class NoteServlet extends HttpServlet {
         String title = request.getParameter("titleIn");
         String contents = request.getParameter("contentsIn");
         
+        //Write new contents to txt file
         pw.println(title);
         pw.println(contents);
                 
