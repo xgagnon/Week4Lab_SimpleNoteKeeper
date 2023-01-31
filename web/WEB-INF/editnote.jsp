@@ -21,7 +21,7 @@
             </p>
             <p>
                 <b>Contents:</b><br>
-                <input type="text" name="contentsIn" value="${contents}">
+                <textarea name="contentsIn">${contents}</textarea>
             </p>
             <input type="submit" value="Save">
         </form>
